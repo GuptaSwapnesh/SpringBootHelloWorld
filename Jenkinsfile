@@ -11,7 +11,7 @@ pipeline {
                     branch "DevFix*"
                 }
                 steps {
-                    sh '''
+                    bat '''
                       cat README.md
                     '''
                 }
